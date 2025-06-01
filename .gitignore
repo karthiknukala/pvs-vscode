@@ -1,0 +1,24 @@
+# VSCode Extension
+extension/out
+extension/node_modules
+extension/.vscode-test
+*.vsix
+
+# Docusaurus
+docs/node_modules
+docs/build
+docs/.docusaurus
+docs/.cache-loader
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw? 
