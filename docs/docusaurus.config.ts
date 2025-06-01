@@ -17,11 +17,11 @@ const config: Config = {
   // Set the production url of your site here
   url: 'https://karthiknukala.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
-  baseUrl: '/pvs/',
+  baseUrl: '/pvs-vscode/',
 
   // GitHub pages deployment config
   organizationName: 'karthiknukala',
-  projectName: 'pvs',
+  projectName: 'pvs-vscode',
   trailingSlash: false,
 
   onBrokenLinks: 'throw',
