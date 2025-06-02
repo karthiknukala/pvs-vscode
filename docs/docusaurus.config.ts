@@ -110,19 +110,19 @@ const config: Config = {
   } satisfies Preset.ThemeConfig,
 };
 
-// Redirect root to docs
-config.plugins = [
-  [
-    '@docusaurus/plugin-client-redirects',
-    {
-      redirects: [
-        {
-          from: '/',
-          to: '/docs/getting-started/intro',
-        },
-      ],
-    },
-  ],
-];
+// // Redirect root to docs
+// config.plugins = [
+//   [
+//     '@docusaurus/plugin-client-redirects',
+//     {
+//       redirects: [
+//         {
+//           from: '/',
+//           to: '/docs/getting-started/intro',
+//         },
+//       ],
+//     },
+//   ],
+// ];
 
 export default config;
