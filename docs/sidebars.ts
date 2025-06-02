@@ -38,7 +38,7 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: 'PVS References',
       items: [
-        'references/pvs-langauge-reference',
+        'references/pvs-language-reference',
         'references/pvs-system-guide',
       ],
     }
