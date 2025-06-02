@@ -34,6 +34,14 @@ const sidebars: SidebarsConfig = {
         'basics/proofs',
       ],
     },
+    {
+      type: 'category',
+      label: 'PVS References',
+      items: [
+        'references/pvs-langauge-reference',
+        'references/pvs-system-guide',
+      ],
+    }
     // {
     //   type: 'category',
     //   label: 'PVS References',
