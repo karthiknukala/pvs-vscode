@@ -22,7 +22,7 @@ PVS (Prototype Verification System) is a specification language integrated with 
 This documentation is organized into several sections:
 
 1. **Getting Started**: Basic installation and setup
-2. **PVS References**: Comprehensive documentation of PVS features and capabilities
+2. **PVS Basics**: Core concepts and features
 
 ## Additional Resources
 
@@ -40,6 +40,7 @@ This documentation is organized into several sections:
 
 1. [Install PVS](./installation)
 2. [Setup VSCode Extension](./vscode-setup)
+3. Write your [First Specification](../basics/first-spec)
 
 ## VSCode Extension Features
 

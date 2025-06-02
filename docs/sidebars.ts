@@ -24,30 +24,29 @@ const sidebars: SidebarsConfig = {
         'getting-started/vscode-setup',
       ],
     },
-    // {
-    //   type: 'category',
-    //   label: 'PVS Basics',
-    //   items: [
-    //     'first-spec',
-    //     'basic-types',
-    //     // Add more pages here like:
-    //     // 'theories',
-    //     // 'proofs',
-    //   ],
-    // },
     {
       type: 'category',
-      label: 'PVS References',
+      label: 'PVS Basics',
       items: [
-        'references/pvs-langauge-reference',
-        'references/pvs-system-guide',
-        'references/pvs-prover-guide',
-        'references/pvs-theory-interpretations',
-        'references/pvs-datatypes',
-        'references/pvs-semantics',
-        'references/pvs-structural-subtypes'
+        'basics/first-spec',
+        'basics/basic-types',
+        'basics/theories',
+        'basics/proofs',
       ],
-    }
+    },
+    // {
+    //   type: 'category',
+    //   label: 'PVS References',
+    //   items: [
+    //     'references/pvs-langauge-reference',
+    //     'references/pvs-system-guide',
+    //     'references/pvs-prover-guide',
+    //     'references/pvs-theory-interpretations',
+    //     'references/pvs-datatypes',
+    //     'references/pvs-semantics',
+    //     'references/pvs-structural-subtypes'
+    //   ],
+    // },
     // You can add more categories like:
     // {
     //   type: 'category',
