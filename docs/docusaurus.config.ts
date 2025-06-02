@@ -54,6 +54,7 @@ const config: Config = {
     ],
   ],
 
+  // Set the default page
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
@@ -108,5 +109,24 @@ const config: Config = {
     },
   } satisfies Preset.ThemeConfig,
 };
+
+// Redirect root to docs
+config.plugins = [
+  function redirectPlugin() {
+    return {
+      name: 'docusaurus-plugin-redirect',
+      async contentLoaded({actions}) {
+        const {addRoute} = actions;
+        addRoute({
+          path: '/',
+          exact: true,
+          redirect: {
+            to: '/docs/getting-started/intro',
+          },
+        });
+      },
+    };
+  },
+];
 
 export default config;
