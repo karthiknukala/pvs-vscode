@@ -11,32 +11,32 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'Modern Development Environment',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        PVS VSCode Extension brings the power of the Prototype Verification System to Visual Studio Code,
+        providing a modern and intuitive development environment.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Powerful Theorem Proving',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Write and verify formal specifications with PVS's powerful theorem prover,
+        now integrated seamlessly into your favorite editor.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Rich Type System',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Take advantage of PVS's expressive type system to write precise specifications
+        and catch errors early in your development process.
       </>
     ),
   },
