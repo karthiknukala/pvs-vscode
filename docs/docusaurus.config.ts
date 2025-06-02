@@ -112,21 +112,17 @@ const config: Config = {
 
 // Redirect root to docs
 config.plugins = [
-  function redirectPlugin() {
-    return {
-      name: 'docusaurus-plugin-redirect',
-      async contentLoaded({actions}) {
-        const {addRoute} = actions;
-        addRoute({
-          path: '/',
-          exact: true,
-          redirect: {
-            to: '/docs/getting-started/intro',
-          },
-        });
-      },
-    };
-  },
+  [
+    '@docusaurus/plugin-client-redirects',
+    {
+      redirects: [
+        {
+          from: '/',
+          to: '/docs/getting-started/intro',
+        },
+      ],
+    },
+  ],
 ];
 
 export default config;
