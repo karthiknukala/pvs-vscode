@@ -40,7 +40,6 @@ This documentation is organized into several sections:
 
 1. [Install PVS](./installation)
 2. [Setup VSCode Extension](./vscode-setup)
-3. [Write Your First Specification](./first-spec)
 
 ## VSCode Extension Features
 
